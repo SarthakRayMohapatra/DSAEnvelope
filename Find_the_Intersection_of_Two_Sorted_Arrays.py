@@ -15,7 +15,7 @@ def sortedArray(a, b):
     while i < n1 and j < n2:
         if a[i] < b[j]:
             i += 1
-        elif b[j] < a[i]:   # FIXED here
+        elif b[j] < a[i]:
             j += 1
         else:
             intersectionArr.append(a[i])
