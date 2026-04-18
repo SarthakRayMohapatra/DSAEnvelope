@@ -33,3 +33,13 @@ def sortedArray(a, b):
         i += 1
 
     return unionArr
+
+n1 = int(input("Enter number of elements in first array: "))
+a = list(map(int, input("Enter elements of first array: ").split()))
+
+n2 = int(input("Enter number of elements in second array: "))
+b = list(map(int, input("Enter elements of second array: ").split()))
+
+result = sortedArray(a, b)
+
+print("Union of two sorted arrays:", result)
